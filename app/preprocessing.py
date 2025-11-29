@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 from PIL import Image
 import io
+from typing import List
+
 
 class DocumentPreprocessor:
     

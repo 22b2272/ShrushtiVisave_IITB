@@ -4,6 +4,9 @@ from .schemas import BillExtractionResponse, BillData, TokenUsage
 from .config import Config
 import io
 from PIL import Image
+from app.preprocessing import DocumentPreprocessor
+from app.extraction import BillExtractor
+
 
 app = FastAPI()
 
